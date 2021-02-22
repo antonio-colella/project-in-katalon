@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Teste operador,Chrome 88.0.4324.182,,,2021-02-22 16:49:10,2021-02-22 16:49:59,49.120s,FAILED
+,,,,,,,
+Test Cases/Login/Operador/LoginComSucesso,Chrome 88.0.4324.182,,,2021-02-22 16:49:11,2021-02-22 16:49:19,8.082s,PASSED
+openBrowser(local),Chrome 88.0.4324.182,,,2021-02-22 16:49:11,2021-02-22 16:49:16,4.663s,PASSED
+"var = waitForElementPresent(findTestObject(""Object Repository/Login/input Email""), minTimeout)",Chrome 88.0.4324.182,,,2021-02-22 16:49:16,2021-02-22 16:49:16,0.407s,PASSED
+if (var == true),Chrome 88.0.4324.182,,,2021-02-22 16:49:16,2021-02-22 16:49:17,0.800s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Login/input Senha""), minTimeout)",Chrome 88.0.4324.182,,,2021-02-22 16:49:17,2021-02-22 16:49:17,0.286s,PASSED
+"setText(findTestObject(""Object Repository/Login/input Senha""), operadorSenha)",Chrome 88.0.4324.182,,,2021-02-22 16:49:17,2021-02-22 16:49:18,0.703s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Login/button Entrar""), minTimeout)",Chrome 88.0.4324.182,,,2021-02-22 16:49:18,2021-02-22 16:49:18,0.506s,PASSED
+"click(findTestObject(""Object Repository/Login/button Entrar""))",Chrome 88.0.4324.182,,,2021-02-22 16:49:18,2021-02-22 16:49:19,0.344s,PASSED
+,,,,,,,
+Test Cases/Tags/Operador/Acesso,Chrome 88.0.4324.182,,,2021-02-22 16:49:19,2021-02-22 16:49:27,8.660s,PASSED
+"mouseOver(findTestObject(""Header/button Configuracoes""))",Chrome 88.0.4324.182,,,2021-02-22 16:49:19,2021-02-22 16:49:23,3.508s,PASSED
+delay(2),Chrome 88.0.4324.182,,,2021-02-22 16:49:23,2021-02-22 16:49:25,2.046s,PASSED
+"click(findTestObject(""Object Repository/Header/link Tags""))",Chrome 88.0.4324.182,,,2021-02-22 16:49:25,2021-02-22 16:49:25,0.389s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Tags/title Tags""), minTimeout)",Chrome 88.0.4324.182,,,2021-02-22 16:49:25,2021-02-22 16:49:27,2.092s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Tags/title Tags""))",Chrome 88.0.4324.182,,,2021-02-22 16:49:27,2021-02-22 16:49:27,0.309s,PASSED
+,,,,,,,
+Test Cases/Tags/Operador/Listar,Chrome 88.0.4324.182,,,2021-02-22 16:49:27,2021-02-22 16:49:59,31.978s,FAILED
+"items = getText(findTestObject(""Object Repository/Tags/span Item""))",Chrome 88.0.4324.182,,,2021-02-22 16:49:28,2021-02-22 16:49:59,31.799s,FAILED

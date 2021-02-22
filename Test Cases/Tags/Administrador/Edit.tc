@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41c5bc64-e219-4064-9375-2536ee8f2fc8</testCaseGuid>
+   <variable>
+      <defaultValue>['Omega']</defaultValue>
+      <description></description>
+      <id>08a172fa-f44a-49ce-acd8-664687edf7d1</id>
+      <masked>false</masked>
+      <name>new_item</name>
+   </variable>
+</TestCaseEntity>

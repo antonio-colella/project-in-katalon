@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Teste operador" time="49.52" tests="3" failures="1" errors="0">
+   <testsuite name="Teste operador" tests="3" failures="1" errors="0" time="49.52" timestamp="2021-02-22 16:49:10" hostname="joaodecarlo - 192.168.0.100" id="Test Suites/Operador/Teste operador">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/joaodecarlo/Documents/Katalon/controlle-app - antonio/Reports/20210222_164904/Operador/Teste operador/20210222_164904"/>
+         <property name="logFiles" value="/Users/joaodecarlo/Documents/Katalon/controlle-app - antonio/Reports/20210222_164904/Operador/Teste operador/20210222_164904/execution0.log"/>
+         <property name="attachments" value="/Users/joaodecarlo/Documents/Katalon/controlle-app - antonio/Reports/20210222_164904/Operador/Teste operador/20210222_164904/1614023399510.png"/>
+         <property name="hostName" value="joaodecarlo - 192.168.0.100"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 88.0.4324.182"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="d3cd66dc6be05ead7ce807ee4c5bd1ad"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login/Operador/LoginComSucesso" time="8.082" classname="Test Cases/Login/Operador/LoginComSucesso" status="PASSED">
+         <system-out><![CDATA[2021-02-22 16:49:11 - [TEST_CASE][PASSED] - Test Cases/Login/Operador/LoginComSucesso: Test Cases/Login/Operador/LoginComSucesso
+
+2021-02-22 16:49:11 - [TEST_STEP][PASSED] - openBrowser(local): Browser is opened with url: 'http://app.controlle.localhost:3000'
+
+2021-02-22 16:49:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-22 16:49:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-22 16:49:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://app.controlle.localhost:3000'
+
+2021-02-22 16:49:16 - [TEST_STEP][PASSED] - var = waitForElementPresent(findTestObject("Object Repository/Login/input Email"), minTimeout): Object 'Object Repository/Login/input Email' is present
+
+2021-02-22 16:49:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input Email' is present
+
+2021-02-22 16:49:16 - [TEST_STEP][PASSED] - if (var == true): Passou: Digitou: prestodungeons@gmail.comno campo email
+
+2021-02-22 16:49:16 - [TEST_STEP][PASSED] - markPassed("Passou: Apresentou input Email"): Passou: Apresentou input Email
+
+2021-02-22 16:49:16 - [MESSAGE][PASSED] - Passou: Apresentou input Email
+
+2021-02-22 16:49:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input Email"), operadorEmail): Text 'prestodungeons@gmail.com' is set on object 'Object Repository/Login/input Email'
+
+2021-02-22 16:49:17 - [MESSAGE][PASSED] - Text 'prestodungeons@gmail.com' is set on object 'Object Repository/Login/input Email'
+
+2021-02-22 16:49:17 - [TEST_STEP][PASSED] - markPassed("Passou: Digitou: " + operadorEmail + "no campo email"): Passou: Digitou: prestodungeons@gmail.comno campo email
+
+2021-02-22 16:49:17 - [MESSAGE][PASSED] - Passou: Digitou: prestodungeons@gmail.comno campo email
+
+2021-02-22 16:49:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login/input Senha"), minTimeout): Object 'Object Repository/Login/input Senha' is present
+
+2021-02-22 16:49:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input Senha' is present
+
+2021-02-22 16:49:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input Senha"), operadorSenha): Text 'teste1234' is set on object 'Object Repository/Login/input Senha'
+
+2021-02-22 16:49:18 - [MESSAGE][PASSED] - Text 'teste1234' is set on object 'Object Repository/Login/input Senha'
+
+2021-02-22 16:49:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login/button Entrar"), minTimeout): Object 'Object Repository/Login/button Entrar' is present
+
+2021-02-22 16:49:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button Entrar' is present
+
+2021-02-22 16:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button Entrar")): Object: 'Object Repository/Login/button Entrar' is clicked on
+
+2021-02-22 16:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button Entrar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tags/Operador/Acesso" time="8.66" classname="Test Cases/Tags/Operador/Acesso" status="PASSED">
+         <system-out><![CDATA[2021-02-22 16:49:19 - [TEST_CASE][PASSED] - Test Cases/Tags/Operador/Acesso: Test Cases/Tags/Operador/Acesso
+
+2021-02-22 16:49:19 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Header/button Configuracoes")): Object: 'Object Repository/Header/button Configuracoes' is hovered
+
+2021-02-22 16:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/button Configuracoes' is hovered
+
+2021-02-22 16:49:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-02-22 16:49:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-22 16:49:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/link Tags")): Object: 'Object Repository/Header/link Tags' is clicked on
+
+2021-02-22 16:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/link Tags' is clicked on
+
+2021-02-22 16:49:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Tags/title Tags"), minTimeout): Object 'Object Repository/Tags/title Tags' is present
+
+2021-02-22 16:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/Tags/title Tags' is present
+
+2021-02-22 16:49:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Tags/title Tags")): Object 'Object Repository/Tags/title Tags' is visible
+
+2021-02-22 16:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/Tags/title Tags' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tags/Operador/Listar" time="31.978" classname="Test Cases/Tags/Operador/Listar" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Tags/Operador/Listar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Tags/span Item'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Listar.run(Listar:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614023344400.run(TempTestSuite1614023344400.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Tags/span Item' located by 'id(&quot;secondary-content&quot;)/div[@class=&quot;zze-context_tags zze-box-content ng-scope&quot;]/div[@class=&quot;zze-context_settings-menu&quot;]/div[@class=&quot;zze-group-content&quot;]/ul[@class=&quot;zze-component_list ng-scope&quot;]/li[@class=&quot;zze-list-separation zze-ng-repeat-slide ng-scope&quot;]/div[@class=&quot;zze-list-item&quot;]/span[@class=&quot;zze-item-title&quot;]/span[@class=&quot;zze-title-name ng-binding&quot;]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-02-22 16:49:27 - [TEST_CASE][FAILED] - Test Cases/Tags/Operador/Listar: Test Cases/Tags/Operador/Listar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Tags/span Item'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Listar.run(Listar:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614023344400.run(TempTestSuite1614023344400.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Tags/span Item' located by 'id("secondary-content")/div[@class="zze-context_tags zze-box-content ng-scope"]/div[@class="zze-context_settings-menu"]/div[@class="zze-group-content"]/ul[@class="zze-component_list ng-scope"]/li[@class="zze-list-separation zze-ng-repeat-slide ng-scope"]/div[@class="zze-list-item"]/span[@class="zze-item-title"]/span[@class="zze-title-name ng-binding"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-02-22 16:49:28 - [TEST_STEP][FAILED] - items = getText(findTestObject("Object Repository/Tags/span Item")): Unable to get text of object 'Object Repository/Tags/span Item' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Tags/span Item'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Listar.run(Listar:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614023344400.run(TempTestSuite1614023344400.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Tags/span Item' located by 'id("secondary-content")/div[@class="zze-context_tags zze-box-content ng-scope"]/div[@class="zze-context_settings-menu"]/div[@class="zze-group-content"]/ul[@class="zze-component_list ng-scope"]/li[@class="zze-list-separation zze-ng-repeat-slide ng-scope"]/div[@class="zze-list-item"]/span[@class="zze-item-title"]/span[@class="zze-title-name ng-binding"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Script1614021812733.run(Script1614021812733.groovy:27)
+	... 13 more
+)
+
+2021-02-22 16:49:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("secondary-content")/div[@class="zze-context_tags zze-box-content ng-scope"]/div[@class="zze-context_settings-menu"]/div[@class="zze-group-content"]/ul[@class="zze-component_list ng-scope"]/li[@class="zze-list-separation zze-ng-repeat-slide ng-scope"]/div[@class="zze-list-item"]/span[@class="zze-item-title"]/span[@class="zze-title-name ng-binding"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-22 16:49:59 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Tags/span Item' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Tags/span Item'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Listar.run(Listar:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614023344400.run(TempTestSuite1614023344400.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Tags/span Item' located by 'id("secondary-content")/div[@class="zze-context_tags zze-box-content ng-scope"]/div[@class="zze-context_settings-menu"]/div[@class="zze-group-content"]/ul[@class="zze-component_list ng-scope"]/li[@class="zze-list-separation zze-ng-repeat-slide ng-scope"]/div[@class="zze-list-item"]/span[@class="zze-item-title"]/span[@class="zze-title-name ng-binding"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Script1614021812733.run(Script1614021812733.groovy:27)
+	... 13 more
+)
+[[ATTACHMENT|/Users/joaodecarlo/Documents/Katalon/controlle-app - antonio/Reports/20210222_164904/Operador/Teste operador/20210222_164904/1614023399510.png]]]]></system-out>
+         <system-err><![CDATA[2021-02-22 16:49:27 - [TEST_CASE][FAILED] - Test Cases/Tags/Operador/Listar: Test Cases/Tags/Operador/Listar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Tags/span Item'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Listar.run(Listar:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614023344400.run(TempTestSuite1614023344400.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Tags/span Item' located by 'id("secondary-content")/div[@class="zze-context_tags zze-box-content ng-scope"]/div[@class="zze-context_settings-menu"]/div[@class="zze-group-content"]/ul[@class="zze-component_list ng-scope"]/li[@class="zze-list-separation zze-ng-repeat-slide ng-scope"]/div[@class="zze-list-item"]/span[@class="zze-item-title"]/span[@class="zze-title-name ng-binding"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-22 16:49:10 - [TEST_SUITE][FAILED] - Teste operador: Test Cases/Tags/Operador/Listar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Tags/span Item'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Listar.run(Listar:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614023344400.run(TempTestSuite1614023344400.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Tags/span Item' located by 'id("secondary-content")/div[@class="zze-context_tags zze-box-content ng-scope"]/div[@class="zze-context_settings-menu"]/div[@class="zze-group-content"]/ul[@class="zze-component_list ng-scope"]/li[@class="zze-list-separation zze-ng-repeat-slide ng-scope"]/div[@class="zze-list-item"]/span[@class="zze-item-title"]/span[@class="zze-title-name ng-binding"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-02-22 16:49:10 - [TEST_SUITE][FAILED] - Teste operador: Test Cases/Tags/Operador/Listar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Tags/span Item'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Listar.run(Listar:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614023344400.run(TempTestSuite1614023344400.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Tags/span Item' located by 'id("secondary-content")/div[@class="zze-context_tags zze-box-content ng-scope"]/div[@class="zze-context_settings-menu"]/div[@class="zze-group-content"]/ul[@class="zze-component_list ng-scope"]/li[@class="zze-list-separation zze-ng-repeat-slide ng-scope"]/div[@class="zze-list-item"]/span[@class="zze-item-title"]/span[@class="zze-title-name ng-binding"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

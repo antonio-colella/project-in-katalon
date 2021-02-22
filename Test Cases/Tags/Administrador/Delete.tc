@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9945bc5d-ee6a-4471-938f-9becb57e610c</testCaseGuid>
+   <variable>
+      <defaultValue>'Alfa'</defaultValue>
+      <description></description>
+      <id>bb978aa8-f779-4537-be3c-79d37924501a</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

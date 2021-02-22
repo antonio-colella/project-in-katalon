@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Adicionar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>468167be-28b3-48bb-9ab5-851aa326f175</testCaseGuid>
+   <variable>
+      <defaultValue>['Alfa', 'Betha', 'Gama', 'Delta', 'Epsilon']</defaultValue>
+      <description></description>
+      <id>cbe91fbe-e42a-4809-8673-f55c69964a9d</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>
