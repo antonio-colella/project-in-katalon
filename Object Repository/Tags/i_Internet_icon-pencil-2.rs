@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Internet_icon-pencil-2</name>
+   <tag></tag>
+   <elementGuidId>6a9c22c7-42bb-460e-8bd4-d1c6ba2d86bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-pencil-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-pencil-2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;secondary-content&quot;)/div[@class=&quot;zze-context_tags zze-box-content ng-scope&quot;]/div[@class=&quot;zze-context_settings-menu&quot;]/div[@class=&quot;zze-group-content&quot;]/ul[@class=&quot;zze-component_list ng-scope&quot;]/li[@class=&quot;zze-list-separation zze-ng-repeat-slide ng-scope&quot;]/div[@class=&quot;zze-list-item&quot;]/span[@class=&quot;zze-item-title&quot;]/ul[@class=&quot;zze-component_buttons-actions-line&quot;]/li[@class=&quot;ng-scope&quot;]/button[@class=&quot;zze-button-action-edit&quot;]/i[@class=&quot;icon-pencil-2&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='secondary-content']/div/div/div[2]/ul/li/div/span/ul/li/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+   </webElementXpaths>
+</WebElementEntity>
